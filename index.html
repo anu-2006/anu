@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form method="" class="form" id="form" autocomplete="off">
+            <h1>Registration Form</h1>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" name="username" placeholder="Enter your name" id="username">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="mobile">Mobile</label>
+                <input type="number" name="mobile" placeholder="Enter your mobile" id="mobile">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Enter your email" id="email">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="pass">Password</label>
+                <input type="password" name="password" placeholder="Enter your password" id="password">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="cpass">Confirm Password</label>
+                <input type="password" name="cpassword" placeholder="Enter same password" id="cpassword">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="">Course name</label>
+    <input type="radio" required name="radio">BCA
+                 <input type="radio" required name="radio"> BCOM
+                 <input type="radio" required name="radio"> BSC
+               </div>
+               <div class="form-control">
+                <label for="">Gender</label>
+                 <input type="radio" required name="radio"> male
+                 <input type="radio" required name="radio"> female
+                 <input type="radio" required name="radio"> other
+               </div>
+                  <div class="form-control">
+                    <label for="">Skills</label>
+                    <input type="checkbox" name="checkbox">Computer skills
+                    <input type="checkbox" name="checkbox">communication skills
+                    <input type="checkbox" name="checkbox">programming skills
+                    <input type="checkbox" name="checkbox">acknowledgement
+                    <input type="checkbox" name="checkbox">Typing speed
+                    <input type="checkbox" name="checkbox">Fast learning skills
+                  </div>
+                  <div class="form-control">
+                    <label for="">Phone number</label>
+                    <input type="tel"placeholder="enter the number" required maxlength="10" pattern="[1-9]{10}" >
+                  </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
